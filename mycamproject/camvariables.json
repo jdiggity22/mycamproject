@@ -1,0 +1,217 @@
+{
+  "input_datatypes": [ ],
+  "input_namespaces": [ ],
+  "output_namespace": "",
+  "input_groups": [
+    {
+      "name": "Instances",
+      "label": "Instances"
+    },
+    {
+      "name": "Instances-vsphere_virtual_machine.myvm",
+      "label": "Instances - vsphere_virtual_machine.myvm"
+    },
+    {
+      "name": "Other",
+      "label": "Other"
+    },
+    {
+      "name": "Other-vsphere",
+      "label": "Other - vsphere"
+    },
+    {
+      "name": "instances",
+      "label": "Instances"
+    },
+    {
+      "name": "vsphere_virtual_machine_resource_pool",
+      "label": "vsphere_virtual_machine Resource Pool"
+    }
+  ],
+  "output_groups": [ ],
+  "template_input_params": [
+    {
+      "name": "user",
+      "label": "User",
+      "description": "Generated",
+      "type": "string",
+      "default": "",
+      "validation": "",
+      "group_name": "instances",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "password",
+      "label": "Password",
+      "description": "Generated",
+      "type": "string",
+      "default": "",
+      "validation": "",
+      "group_name": "instances",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "vsphere_server",
+      "label": "Vsphere Server",
+      "description": "Generated",
+      "type": "string",
+      "default": "",
+      "validation": "",
+      "group_name": "instances",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "allow_unverified_ssl",
+      "label": "Allow Unverified Ssl",
+      "description": "Generated",
+      "type": "string",
+      "default": "",
+      "validation": "",
+      "group_name": "instances",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "myvm_name",
+      "label": "Myvm Name",
+      "description": "Virtual machine name for myvm",
+      "type": "string",
+      "default": "",
+      "validation": "",
+      "group_name": "instances",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "myvm_number_of_vcpu",
+      "label": "Myvm Number Of Vcpu",
+      "description": "Number of virtual cpu's.",
+      "type": "string",
+      "default": "",
+      "validation": "",
+      "group_name": "instances",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "myvm_memory",
+      "label": "Myvm Memory",
+      "description": "Memory allocation.",
+      "type": "string",
+      "default": "",
+      "validation": "",
+      "group_name": "instances",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "myvm_disk_name",
+      "label": "Myvm Disk Name",
+      "description": "The name of the disk. Forces a new disk if changed. This should only be a longer path if attaching an external disk.",
+      "type": "string",
+      "default": "",
+      "validation": "",
+      "group_name": "instances",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "myvm_disk_size",
+      "label": "Myvm Disk Size",
+      "description": "The size of the disk, in GiB.",
+      "type": "string",
+      "default": "",
+      "validation": "",
+      "group_name": "instances",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "myvm_template_name",
+      "label": "Myvm Template Name",
+      "description": "Generated",
+      "type": "string",
+      "default": "",
+      "validation": "",
+      "group_name": "instances",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "myvm_datacenter_name",
+      "label": "Myvm Datacenter Name",
+      "description": "Generated",
+      "type": "string",
+      "default": "",
+      "validation": "",
+      "group_name": "instances",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "myvm_datastore_name",
+      "label": "Myvm Datastore Name",
+      "description": "Generated",
+      "type": "string",
+      "default": "",
+      "validation": "",
+      "group_name": "instances",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    },
+    {
+      "name": "myvm_resource_pool",
+      "label": "Myvm Resource Pool",
+      "description": "Resource pool.",
+      "type": "string",
+      "default": "",
+      "validation": "",
+      "group_name": "vsphere_virtual_machine_resource_pool",
+      "required": true,
+      "secured": false,
+      "hidden": false,
+      "immutable": false,
+      "immutable_after_create": false
+    }
+  ],
+  "template_output_params": [ ]
+}
